@@ -1,0 +1,62 @@
+.full {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.add {
+  justify-self: center;
+  align-self: center;
+}
+.card_2 {
+  margin-top: 20px;
+  align-items: center;
+  width: 340px;
+  display: flex;
+  flex-direction: row;
+}
+.cart_food_img {
+  height: 200px;
+  width: 150px;
+  padding: 10px;
+}
+.bill_section {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 70px;
+}
+
+.price {
+  text-align: center;
+  color: grey;
+}
+
+.alert {
+  margin-top: 10px;
+  color: red;
+}
+
+.btn .bi {
+  color: red;
+}
+
+.quantity {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.quantity_btn_remove,
+.quantity_btn {
+  color: blue;
+  font-size: 20px;
+  cursor: pointer;
+}
+.quantity_btn_remove:hover {
+  color: red;
+}
+.quantity_btn:hover {
+  color: green;
+}
